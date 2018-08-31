@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		31EC25A2213942BB00C6C95D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EC25A1213942BB00C6C95D /* main.m */; };
+		31EC25B5213947D600C6C95D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31EC25B4213947D600C6C95D /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		31EC259C213942BB00C6C95D /* CopyFiles */ = {
+		31EC25AF213947D600C6C95D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		31EC259E213942BB00C6C95D /* IconAndLaunchImageMaker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = IconAndLaunchImageMaker; sourceTree = BUILT_PRODUCTS_DIR; };
-		31EC25A1213942BB00C6C95D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31EC25B1213947D600C6C95D /* iconAndLaunchImageMaker */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = iconAndLaunchImageMaker; sourceTree = BUILT_PRODUCTS_DIR; };
+		31EC25B4213947D600C6C95D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		31EC259B213942BB00C6C95D /* Frameworks */ = {
+		31EC25AE213947D600C6C95D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,94 +38,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		31EC2595213942BB00C6C95D = {
+		31EC25A8213947D600C6C95D = {
 			isa = PBXGroup;
 			children = (
-				31EC25A0213942BB00C6C95D /* IconAndLaunchImageMaker */,
-				31EC259F213942BB00C6C95D /* Products */,
+				31EC25B3213947D600C6C95D /* iconAndLaunchImageMaker */,
+				31EC25B2213947D600C6C95D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		31EC259F213942BB00C6C95D /* Products */ = {
+		31EC25B2213947D600C6C95D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				31EC259E213942BB00C6C95D /* IconAndLaunchImageMaker */,
+				31EC25B1213947D600C6C95D /* iconAndLaunchImageMaker */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		31EC25A0213942BB00C6C95D /* IconAndLaunchImageMaker */ = {
+		31EC25B3213947D600C6C95D /* iconAndLaunchImageMaker */ = {
 			isa = PBXGroup;
 			children = (
-				31EC25A1213942BB00C6C95D /* main.m */,
+				31EC25B4213947D600C6C95D /* main.m */,
 			);
-			path = IconAndLaunchImageMaker;
+			path = iconAndLaunchImageMaker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		31EC259D213942BB00C6C95D /* IconAndLaunchImageMaker */ = {
+		31EC25B0213947D600C6C95D /* iconAndLaunchImageMaker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 31EC25A5213942BB00C6C95D /* Build configuration list for PBXNativeTarget "IconAndLaunchImageMaker" */;
+			buildConfigurationList = 31EC25B8213947D600C6C95D /* Build configuration list for PBXNativeTarget "iconAndLaunchImageMaker" */;
 			buildPhases = (
-				31EC259A213942BB00C6C95D /* Sources */,
-				31EC259B213942BB00C6C95D /* Frameworks */,
-				31EC259C213942BB00C6C95D /* CopyFiles */,
+				31EC25AD213947D600C6C95D /* Sources */,
+				31EC25AE213947D600C6C95D /* Frameworks */,
+				31EC25AF213947D600C6C95D /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = IconAndLaunchImageMaker;
-			productName = IconAndLaunchImageMaker;
-			productReference = 31EC259E213942BB00C6C95D /* IconAndLaunchImageMaker */;
+			name = iconAndLaunchImageMaker;
+			productName = iconAndLaunchImageMaker;
+			productReference = 31EC25B1213947D600C6C95D /* iconAndLaunchImageMaker */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		31EC2596213942BB00C6C95D /* Project object */ = {
+		31EC25A9213947D600C6C95D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Franky;
 				TargetAttributes = {
-					31EC259D213942BB00C6C95D = {
+					31EC25B0213947D600C6C95D = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 31EC2599213942BB00C6C95D /* Build configuration list for PBXProject "iconAndLaunchImageMaker" */;
+			buildConfigurationList = 31EC25AC213947D600C6C95D /* Build configuration list for PBXProject "iconAndLaunchImageMaker" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 31EC2595213942BB00C6C95D;
-			productRefGroup = 31EC259F213942BB00C6C95D /* Products */;
+			mainGroup = 31EC25A8213947D600C6C95D;
+			productRefGroup = 31EC25B2213947D600C6C95D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				31EC259D213942BB00C6C95D /* IconAndLaunchImageMaker */,
+				31EC25B0213947D600C6C95D /* iconAndLaunchImageMaker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		31EC259A213942BB00C6C95D /* Sources */ = {
+		31EC25AD213947D600C6C95D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31EC25A2213942BB00C6C95D /* main.m in Sources */,
+				31EC25B5213947D600C6C95D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		31EC25A3213942BB00C6C95D /* Debug */ = {
+		31EC25B6213947D600C6C95D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -183,7 +183,7 @@
 			};
 			name = Debug;
 		};
-		31EC25A4213942BB00C6C95D /* Release */ = {
+		31EC25B7213947D600C6C95D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -234,7 +234,7 @@
 			};
 			name = Release;
 		};
-		31EC25A6213942BB00C6C95D /* Debug */ = {
+		31EC25B9213947D600C6C95D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -243,7 +243,7 @@
 			};
 			name = Debug;
 		};
-		31EC25A7213942BB00C6C95D /* Release */ = {
+		31EC25BA213947D600C6C95D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -255,25 +255,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		31EC2599213942BB00C6C95D /* Build configuration list for PBXProject "iconAndLaunchImageMaker" */ = {
+		31EC25AC213947D600C6C95D /* Build configuration list for PBXProject "iconAndLaunchImageMaker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				31EC25A3213942BB00C6C95D /* Debug */,
-				31EC25A4213942BB00C6C95D /* Release */,
+				31EC25B6213947D600C6C95D /* Debug */,
+				31EC25B7213947D600C6C95D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		31EC25A5213942BB00C6C95D /* Build configuration list for PBXNativeTarget "IconAndLaunchImageMaker" */ = {
+		31EC25B8213947D600C6C95D /* Build configuration list for PBXNativeTarget "iconAndLaunchImageMaker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				31EC25A6213942BB00C6C95D /* Debug */,
-				31EC25A7213942BB00C6C95D /* Release */,
+				31EC25B9213947D600C6C95D /* Debug */,
+				31EC25BA213947D600C6C95D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 31EC2596213942BB00C6C95D /* Project object */;
+	rootObject = 31EC25A9213947D600C6C95D /* Project object */;
 }
