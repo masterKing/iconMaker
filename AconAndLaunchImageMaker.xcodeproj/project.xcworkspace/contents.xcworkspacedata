@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:IconAndLaunchImageMaker.xcodeproj">
+      location = "self:/Users/franky/Desktop/iOSIconAndLaunchImageMaker/iconAndLaunchImageMaker.xcodeproj">
    </FileRef>
 </Workspace>

@@ -96,7 +96,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 31EC2599213942BB00C6C95D /* Build configuration list for PBXProject "IconAndLaunchImageMaker" */;
+			buildConfigurationList = 31EC2599213942BB00C6C95D /* Build configuration list for PBXProject "iconAndLaunchImageMaker" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -255,7 +255,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		31EC2599213942BB00C6C95D /* Build configuration list for PBXProject "IconAndLaunchImageMaker" */ = {
+		31EC2599213942BB00C6C95D /* Build configuration list for PBXProject "iconAndLaunchImageMaker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				31EC25A3213942BB00C6C95D /* Debug */,
