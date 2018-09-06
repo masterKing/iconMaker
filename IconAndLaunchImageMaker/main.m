@@ -78,6 +78,10 @@ int main(int argc, const char * argv[]) {
             NSLog(@"提供的文件不是图片类型");
             return 2;
         }
+        if (originalImage.size.width != 1024 && originalImage.size.height != 1024) {
+            NSLog(@"提供的图片文件尺寸不对,请提供一张宽高为1024的图片");
+            return 3;
+        }
         
         NSDictionary *content = @{@"images": @[@{@"idiom": @"iphone",@"size": @"20x20",@"scale": @"2x",@"filename": @"iphone_20@2x.png"},
                                                @{@"idiom": @"iphone",@"size": @"20x20",@"scale": @"3x",@"filename": @"iphone_20@3x.png"},
@@ -100,8 +104,7 @@ int main(int argc, const char * argv[]) {
                                                ],
                                   @"info": @{@"version": @1,
                                              @"author": @"masterKing"
-                                             }
-                                  };
+                                             }};
         
         NSMutableArray *marr = [NSMutableArray arrayWithCapacity:5];
         for (NSDictionary *dict in content[@"images"]) {
